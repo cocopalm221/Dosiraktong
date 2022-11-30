@@ -1,0 +1,61 @@
+@charset 'utf-8';
+@import "scss/font";
+@import "scss/variables";
+@import "scss/mixin";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+  border: 0;
+}
+html,
+body {
+  font-family: "Poppins", "Pretendard", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: #222;
+}
+/* 공통요소 */
+.clearfix::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.inner {
+  width: 100%;
+  max-width: 1321px;
+  margin: 0 auto;
+}
+/* layout */
+.wrap {
+  position: relative;
+  display: block;
+}
+/*header*/
+@import "scss/header";
+/*visual*/
+@import "scss/visual";
+/*service*/
+@import "scss/service";
+/*about*/
+@import "scss/about";
+/*community*/
+@import "scss/community";
+/*footer*/
+@import "scss/footer";
