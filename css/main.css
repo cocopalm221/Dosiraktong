@@ -59,6 +59,41 @@ body {
 }
 
 /*header*/
+.header {
+  position: relative;
+  display: block;
+}
+.header .inner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 20px;
+}
+.header .inner .logo {
+  position: relative;
+  display: block;
+  width: 125px;
+  height: 30px;
+  background: #000;
+}
+.header .inner .logo img {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.header .inner .nav {
+  position: relative;
+  display: block;
+  max-width: 840px;
+}
+.header .inner .nav .gnb {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
 /*visual*/
 /*service*/
 /*about*/
